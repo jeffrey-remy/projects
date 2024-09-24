@@ -11,3 +11,4 @@
 **Game Jam Game** (March 2022) <br>
 -- Developed from idea to completion in 48 hours within small team <br>
 -- Utilized a custom-made Java library/engine to implement game behavior 
+-- Full game can be downloaded from https://dude4.itch.io/chip-mcdales-most-dangerous-game
