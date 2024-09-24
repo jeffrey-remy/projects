@@ -1,0 +1,84 @@
+Author:jeffrey-remy
+Date: Fri May 5 21:00:30 2023 -0500
+
+    Added 0 side of Seven-O rules, where 0 cards now rotate all hands among players.
+
+Author:jeffrey-remy
+Date: Fri May 5 17:11:33 2023 -0500
+
+    Finished display function of players in game and selecting players in the list. Said function is used in the "7" side of the new Seven-O house rule where the player or a bot can swap hands with another player when they play a 7.
+
+Author:jeffrey-remy
+Date: Fri May 5 12:37:55 2023 -0500
+
+    Added function to print out all players in the game with card counts next to each of them. List can be scrolled through if it is longer than the terminal.
+
+Author:jeffrey-remy
+Date: Fri May 5 00:42:23 2023 -0500
+
+    Added display of the currently selected color in cases of Wild cards. More tweaks to display, specifically the timing of special cards being played and their abilities being activated.
+
+Author:jeffrey-remy
+Date: Fri May 5 00:03:37 2023 -0500
+
+    Added checks and special behavior for when special cards like Reverse or Skip are the first card on the discard pile. Some tweaks to displaying (the amount of time at which bots draw their cards is determined by amount of cards drawn).
+
+Author:jeffrey-remy
+Date: Thu May 4 22:28:15 2023 -0500
+
+    LATE COMMIT LOG: On morning of 5/2, added ability to keep the game going after the first player discarded their entire hand. This new mode keeps going until there is only one player left who has not discarded their hand. Features status messages about the winning placements of players.
+
+Author:jeffrey-remy
+Date: Thu May 4 22:26:55 2023 -0500
+
+    Fixed bugs with drawing cards by changing method of re-assigning top card variable. Game is now actually functional.
+
+Author:jeffrey-remy
+Date: Tue May 2 07:15:45 2023 -0500
+
+    Added initialization game settings of drawing rules, game speed, and the number of bots to add into the game.
+
+Author:jeffrey-remy
+Date: Tue May 2 06:45:52 2023 -0500
+
+    Added functionality of special cards (Reverse, Skip, Draw 2, etc.) as well as being able to call Uno and win/lose the game.
+
+Author:jeffrey-remy
+Date: Tue May 2 01:57:49 2023 -0500
+
+    Added bot turns to game loop structure, complete with status messages about other player's turns.
+
+Author:jeffrey-remy
+Date: Tue May 2 00:27:20 2023 -0500
+
+    Drawing cards with unlimited drawing house rule functions much better
+
+Author:jeffrey-remy
+Date: Tue May 2 00:15:49 2023 -0500
+
+    Implemented drawing system (including draw-until-you-get-a-valid-card house rule with slightly buggy behavior). Validation of moves has been fleshed out, with possibly buggy results from time to time.
+
+Author:jeffrey-remy
+Date: Mon May 1 21:28:13 2023 -0500
+
+    Added ability to select and play cards in deck, complete with rudimentary checks of whether a card can be played or not.
+
+Author:jeffrey-remy
+Date: Mon May 1 19:12:04 2023 -0500
+
+    Added functionality to display user's hand, complete with ability to scroll up and down. Has a visual indicator to show the currently selected card.
+
+Author:jeffrey-remy
+Date: Mon May 1 10:06:08 2023 -0500
+
+    Added functionality to deal intial hands as well as the skeleton of the game loop. Can check player's hand for if they have valid cards.
+
+Author:jeffrey-remy
+Date: Sun Apr 30 20:46:27 2023 -0500
+
+    Added deck creation function along with global players and deck vectors
+
+Author:jeffrey-remy
+Date: Sun Apr 30 16:24:39 2023 -0500
+
+    Started Uno project, created card struct with color and special enums to store info about any given Uno card. Added print method to display Uno cards according to their info and color.
