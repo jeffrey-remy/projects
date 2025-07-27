@@ -1,8 +1,8 @@
 **Guess The Album** (June - July 2025) <br>
--- Daily guessing game similar to Wordle, implemented using React
--- Designed to allow for many dynamic displays according to user input
--- Utilizes Discogs API to retrieve album information
--- Communicates with Node app and SQL database on Google Cloud  
+-- Daily guessing game similar to Wordle, implemented using React <br>
+-- Designed to allow for many dynamic displays according to user input <br>
+-- Utilizes Discogs API to retrieve album information <br>
+-- Communicates with Node app and SQL database on Google Cloud  <br> <br>
 
 **COM S 3090 App Project** (August - December 2023) <br>
 -- Semester-long team project using Scrum model <br>
