@@ -1,5 +1,5 @@
 **Guess The Album** (June - July 2025) <br>
--- Access at https://jeffrey-remy.github.io/guessthealbum/
+-- Access at https://jeffrey-remy.github.io/guessthealbum/ <br>
 -- Daily guessing game similar to Wordle, implemented using React <br>
 -- Designed to allow for many dynamic displays according to user input <br>
 -- Utilizes Discogs API to retrieve album information <br>
